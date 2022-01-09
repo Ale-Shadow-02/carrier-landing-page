@@ -1,9 +1,20 @@
+@import "reset";
 @import "fonts";
 
 body {
-	font-family: CormorantUpright;
-	font-size: 50px;
-	span {
-		color: red;
-	}
+	font-family: "Roboto", sans-serif;
+	color: #000;
 }
+body._loock {
+	overflow: hidden;
+}
+.wrapper {
+	min-height: 100%;
+}
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+@import "header";
+@import "popup";
