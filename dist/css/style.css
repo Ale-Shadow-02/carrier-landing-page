@@ -1,7 +1,5 @@
 @charset "UTF-8";
-
 /**Обнуление*/
-
 * {
   padding: 0;
   margin: 0;
@@ -11,8 +9,7 @@
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :focus,
@@ -91,9 +88,8 @@ h6 {
 }
 
 /**Обнуление стилей*/
-
 body {
-  font-family: CormorantUpright;
+  font-family: "Roboto", sans-serif;
 }
 
 @font-face {
@@ -104,7 +100,6 @@ body {
   font-style: normal;
   font-display: block;
 }
-
 [class^=_icon-]::before,
 [class*=" _icon-"]::before {
   /* use !important to prevent issues with browser extensions that change fonts */
